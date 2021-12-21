@@ -4,13 +4,14 @@ import { Grid } from '@material-ui/core';
 import Product from './Product/Product';
 import useStyles from './styles';
 
+/* Mock products
 const products = [
     {  id: 1, name: 'FirstBox', description: 'First date box.', price: '5 BHD', image: 'https://images.unsplash.com/photo-1607166452427-7e4477079cb9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Ym94fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60'},
     {  id: 2, name: 'SecondBox', description: 'Second date box.', price: '10 BHD', image: 'https://images.unsplash.com/photo-1573376670774-4427757f7963?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ym94fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60' },              
 
-];
+]; */
     
-const Products = () => {
+const Products = ({ products }) => {
     const classes = useStyles();
 
     return (
