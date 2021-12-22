@@ -14,7 +14,7 @@ const CartItem = ({item}) => {
                 <Typography variant ='h5'>{item.line_total.formatted_with_code}</Typography>
             </CardContent>
             <CardActions className={classes.cardActions}>
-                <div className={classes.buttons}>
+                <div className={classes.buttons} >
                     <Button type='button' size='small'>-</Button>
                     <Typography>{item.quantity}</Typography>
                     <Button type='button' size='small'>+</Button>
