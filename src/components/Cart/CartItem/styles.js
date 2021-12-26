@@ -8,6 +8,12 @@ export default makeStyles(() => ({
     display: "flex",
     justifyContent: "space-between",
   },
+  textName: {
+    fontSize: "20px",
+  },
+  textPrice: {
+    fontSize: "15px",
+  },
   cartActions: {
     justifyContent: "space-between",
   },

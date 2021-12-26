@@ -2,6 +2,12 @@ import React, { useState, useEffect } from "react";
 import { commerce } from "./lib/commerce";
 import { Products, Navbar, Cart, Checkout } from "./components";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
+
+//document.body.style = "background: lightgrey;";
+//document.body.style.backgroundImage = "url(../../assets/sukari-background.png)";
+document.body.style.backgroundImage =
+  "url('https://i.postimg.cc/Gpw6pwsc/sukari-background.png')";
 
 const App = () => {
   const [products, setProducts] = useState([]);
