@@ -1,27 +1,31 @@
-import React from 'react';
-import { TextField, Grid } from '@material-ui/core';
-import { useFormContext, Controller } from 'react-hook-form';
+import React from "react";
+import { TextField, Grid } from "@material-ui/core";
+import { useFormContext, Controller } from "react-hook-form";
 
+const FormInput = ({ name, label }) => {
+  const { control } = useFormContext();
 
-const FormInput = ({ name, label}) => {
-const { control } = useFormContext();
-   const isError = false;
-
-return (
-   <>
-         <Controller
-            control={control}
-            name={name}
-            render = {({ field})=> (
-                <TextField
-                    fullWidth
-                    label={label}
-                    required
-                />
-            )}
+  return (
+    <Grid item xs={12} sm={6}>
+      <Controller
+      render={({field})=>(
+         <TextField
+         fullWidth
+         label={label}
+         name={name}
+         defaultValue=""
+         required
+         onChange={(e) => field.onChange(e.target.value)}
+         value={field.value}
          />
-   </>
- );
- }
+         )}
+         control={control}
+         name={name}
+         />
+         </Grid>
+      );
+      };
+      export default FormInput;
 
-export default FormInput;
+
+

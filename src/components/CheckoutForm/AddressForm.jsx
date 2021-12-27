@@ -7,7 +7,7 @@ import { commerce } from '../../lib/commerce';
 
 import FormInput from './CustomTextField';
 
-const AddressForm = ({checkoutToken, next }) => {
+const AddressForm = ({checkoutToken, test }) => {
     const [shippingCountries, setShippingCountries] = useState([]);
     const [shippingCountry, setShippingCountry] = useState('');
     const [shippingSubdivisions, setShippingSubdivisions] = useState('');
@@ -62,14 +62,14 @@ const AddressForm = ({checkoutToken, next }) => {
                 Shipping Address
             </Typography>
             <FormProvider {...methods}>
-                <form onSubmit={methods.handleSubmit((data) => next({ ...data, shippingCountry, shippingSubdivision, shippingOption }))}>
+                <form onSubmit={methods.handleSubmit((data) => test({ ...data, shippingCountry, shippingSubdivision, shippingOption }))}>
                     <Grid container spacing={3}>
-                        <FormInput required name='firstName' label='First name' />
-                        <FormInput required name='lastName' label='Last name' />
+                        <FormInput required name='firstName' label='First Name' />
+                        <FormInput required name='lastName' label='Last Name' />
                         <FormInput required name='address1' label='Address' />
                         <FormInput required name='email' label='Email' />
                         <FormInput required name='city' label='City' />
-                        <FormInput required name='zip' label='Area / ZIP' />
+                        <FormInput required name='postcode' label='Postcode' />
                         <Grid item xs={12} sm={6}>
                             <InputLabel>
                             Shipping Country
