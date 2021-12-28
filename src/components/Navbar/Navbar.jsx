@@ -19,7 +19,7 @@ const Navbar = ({totalItems}) => {
                 <Toolbar>
                     <Typography component={Link} to='/' variant='h6' className={classes.title} color='inherit'>
                         <img src={logo} alt='Date Shop' height='50px' width='50px' className={classes.image}/>
-                        Date Shop
+                        <strong>Al-Sukkariya</strong>
                     </Typography>
                     <div className={classes.grow} />
                     
