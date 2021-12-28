@@ -29,7 +29,7 @@ const AboutUs = ( ) => {
           </div>
         </header>
         {/* Add a background color and large text to the whole page */}
-        <div className="w3-sand  w3-large">
+        <div className="w3-large">
           {/* About Container */}
           <div className="w3-container" id="about">
             <div className="w3-content" style={{maxWidth: '700px'}}>
