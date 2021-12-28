@@ -13,3 +13,7 @@ body {
 html {
   overflow-x: hidden;
 }
+
+a.MuiTypography-root.makeStyles-title-2.MuiTypography-h6.MuiTypography-colorInherit {
+  font-size: 20px !important;
+}

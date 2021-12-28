@@ -8,7 +8,7 @@ import AboutUs from "./components/AboutUs/AboutUs";
 //document.body.style = "background: lightgrey;";
 //document.body.style.backgroundImage = "url(../../assets/sukari-background.png)";
 document.body.style.backgroundImage =
-  "url('https://i.postimg.cc/Gpw6pwsc/sukari-background.png')";
+  "url('')";
 
 const App = () => {
   const [products, setProducts] = useState([]);

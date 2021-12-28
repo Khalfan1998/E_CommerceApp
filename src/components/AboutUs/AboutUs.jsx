@@ -16,7 +16,7 @@ const AboutUs = ( ) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata" />
-        <style dangerouslySetInnerHTML={{__html: "\n    body,\n    html {\n      height: 100%;\n      font-family: \"Inconsolata\", sans-serif;\n    }\n    ul{\n        list-style-type: none;\n    }\n\n    .bgimg {\n      background-position: center;\n      background-size: cover;\n      background-image: url(\"https://i.postimg.cc/hvscz0P0/background-about-us.png\");\n      min-height: 75%;\n    }\n\n    .menu {\n      display: none;\n    }\n  " }} />
+        <style dangerouslySetInnerHTML={{__html: "\n    body,\n    html {\n      height: 100%;\n      \n    }\n    ul{\n        list-style-type: none;\n    }\n\n    .bgimg {\n      background-position: center;\n      background-size: cover;\n      background-image: url(\"https://i.postimg.cc/hvscz0P0/background-about-us.png\");\n      min-height: 75%;\n    }\n\n    .menu {\n      display: none;\n    }\n  " }} />
         {/* Links (sit on top) */}
         {/* Header with image */}
         <header className="bgimg w3-display-container" id="home">
