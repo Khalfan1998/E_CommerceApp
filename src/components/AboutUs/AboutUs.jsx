@@ -10,7 +10,7 @@ const AboutUs = ( ) => {
     return (
         
         <div>
-           <div className={classes.toolbar}/>
+            <div className={classes.toolbar}/>
         <title>aboutUs</title>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
