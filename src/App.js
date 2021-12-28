@@ -3,6 +3,7 @@ import { commerce } from "./lib/commerce";
 import { Products, Navbar, Cart, Checkout } from "./components";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
+import AboutUs from "./components/AboutUs/AboutUs";
 
 //document.body.style = "background: lightgrey;";
 //document.body.style.backgroundImage = "url(../../assets/sukari-background.png)";
@@ -103,6 +104,7 @@ const App = () => {
               />
             }
           />
+          <Route path="/AboutUs" element={<AboutUs />} />
 
           <Route
             path="/checkout"

@@ -3,6 +3,7 @@ import { AppBar, Toolbar, IconButton, Badge, MenuItem, Menu, Typography } from '
 import { ShoppingCart } from '@material-ui/icons';
 import { Link, useLocation } from 'react-router-dom';
 
+
 import logo from '../../assets/sukariya-logo.png'
 import useStyles from './styles';
 
@@ -19,6 +20,10 @@ const Navbar = ({totalItems}) => {
                     <Typography component={Link} to='/' variant='h6' className={classes.title} color='inherit'>
                         <img src={logo} alt='Date Shop' height='50px' width='50px' className={classes.image}/>
                         Date Shop
+                    </Typography>
+                    <Typography component={Link} to='/AboutUs' variant='h6' className={classes.title} color='inherit'>
+                        
+                        About Us
                     </Typography>
                     <div className={classes.grow} />
                     {location.pathname === '/' && (
