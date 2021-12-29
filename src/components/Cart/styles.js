@@ -8,7 +8,7 @@ export default makeStyles((theme) => ({
   },
   emptyButton: {
     //zIndex: 5,
-    transform: "translate(-20.4vh, -24vh)",
+    //transform: "translate(-20.4vh, -24vh)",
     backgroundColor: "black",
     minWidth: "150px",
     [theme.breakpoints.down("xs")]: {
@@ -19,7 +19,7 @@ export default makeStyles((theme) => ({
     },
   },
   checkoutButton: {
-    transform: "translate(-43vh, -33vh)",
+    //transform: "translate(-43vh, -33vh)",
     color: "black",
     backgroundColor: "#F1C55B",
     minWidth: "150px",
@@ -29,7 +29,7 @@ export default makeStyles((theme) => ({
     textDecoration: "none",
   },
   subtotalsize: {
-    transform: "translate(92vh, -43vh)",
+    //transform: "translate(92vh, -43vh)",
     fontSize: "30px",
   },
   /*imgborder: {
