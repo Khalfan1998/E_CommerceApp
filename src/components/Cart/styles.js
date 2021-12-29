@@ -7,7 +7,7 @@ export default makeStyles((theme) => ({
     marginTop: "5%",
   },
   emptyButton: {
-    transform: "translate(-50vh, -74vh)",
+    transform: "translate(-20.4vh, -47vh)",
     backgroundColor: "black",
     minWidth: "150px",
     [theme.breakpoints.down("xs")]: {
@@ -18,7 +18,7 @@ export default makeStyles((theme) => ({
     },
   },
   checkoutButton: {
-    transform: "translate(-50vh, -74vh)",
+    transform: "translate(-43vh, -57vh)",
     backgroundColor: "black",
     minWidth: "150px",
   },
@@ -26,6 +26,7 @@ export default makeStyles((theme) => ({
     textDecoration: "none",
   },
   subtotalsize: {
+    transform: "translate(92vh, -67vh)",
     fontSize: "30px",
   },
   cardDetails: {
