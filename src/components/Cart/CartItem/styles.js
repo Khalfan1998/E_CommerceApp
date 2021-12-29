@@ -11,6 +11,9 @@ export default makeStyles(() => ({
     display: "flex",
     justifyContent: "space-between",
   },
+  removeButton: {
+    backgroundColor: "black",
+  },
   textName: {
     fontSize: "20px",
   },
