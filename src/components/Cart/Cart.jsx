@@ -35,12 +35,13 @@ const Cart = ({ cart, handleUpdateCartQty, handleRemoveFromCart, handleEmptyCart
     if(!cart.line_items) return 'Loading...';
 
     return (
+        
         <Container>
             <div className={classes.toolbar}/>
             <Typography className={classes.title} variant='h3' gutterBottom>Your Shopping Cart</Typography>
             { !cart.line_items.length ? <EmptyCart /> : <FilledCart /> }
-
         </Container>
+        
     )
 }
 

@@ -7,7 +7,8 @@ export default makeStyles((theme) => ({
     marginTop: "5%",
   },
   emptyButton: {
-    transform: "translate(-20.4vh, -47vh)",
+    //zIndex: 5,
+    transform: "translate(-20.4vh, -24vh)",
     backgroundColor: "black",
     minWidth: "150px",
     [theme.breakpoints.down("xs")]: {
@@ -18,18 +19,23 @@ export default makeStyles((theme) => ({
     },
   },
   checkoutButton: {
-    transform: "translate(-43vh, -57vh)",
+    transform: "translate(-43vh, -33vh)",
     color: "black",
     backgroundColor: "#F1C55B",
     minWidth: "150px",
+    zIndex: 5,
   },
   link: {
     textDecoration: "none",
   },
   subtotalsize: {
-    transform: "translate(92vh, -67vh)",
+    transform: "translate(92vh, -43vh)",
     fontSize: "30px",
   },
+  /*imgborder: {
+    transform: "translate(70vh, -85vh)",
+    zIndex: -5,
+  },*/
   cardDetails: {
     display: "flex",
     marginTop: "10%",
