@@ -14,7 +14,7 @@ html {
   overflow-x: hidden;
   overflow-y: scroll;
   /*background */
-  background-color: lightgrey !important;
+  background-color: white !important;
 }
 
 a.MuiTypography-root.makeStyles-title-2.MuiTypography-h6.MuiTypography-colorInherit {
@@ -23,7 +23,7 @@ a.MuiTypography-root.makeStyles-title-2.MuiTypography-h6.MuiTypography-colorInhe
 
 /* container background About Us Page*/
 .MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-4.MuiGrid-justify-content-xs-center {
-  background-color: rgb(255, 219, 219);
+  background-color: rgb(255, 255, 255);
 }
 
 /* Navbar / cards color */
@@ -39,4 +39,10 @@ main.makeStyles-content-12 {
 
 * {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
+}
+
+/* width and height of cart items container */
+.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded {
+  width: 300px;
+  height: auto;
 }

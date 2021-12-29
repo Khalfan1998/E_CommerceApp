@@ -1,8 +1,11 @@
 import { makeStyles } from "@material-ui/core/styles";
 
 export default makeStyles(() => ({
+  //image size and position
   media: {
-    height: 230,
+    height: 150,
+    width: "50%",
+    marginLeft: "25%",
   },
   cardContent: {
     display: "flex",
