@@ -42,7 +42,3 @@ main.makeStyles-content-12 {
 }
 
 /* width and height of cart items container */
-.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded {
-  width: 300px;
-  height: auto;
-}

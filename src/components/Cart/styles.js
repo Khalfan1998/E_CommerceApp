@@ -7,6 +7,7 @@ export default makeStyles((theme) => ({
     marginTop: "5%",
   },
   emptyButton: {
+    transform: "translate(-50vh, -74vh)",
     backgroundColor: "black",
     minWidth: "150px",
     [theme.breakpoints.down("xs")]: {
@@ -17,6 +18,7 @@ export default makeStyles((theme) => ({
     },
   },
   checkoutButton: {
+    transform: "translate(-50vh, -74vh)",
     backgroundColor: "black",
     minWidth: "150px",
   },
