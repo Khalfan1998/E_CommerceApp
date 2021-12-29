@@ -19,7 +19,8 @@ export default makeStyles((theme) => ({
   },
   checkoutButton: {
     transform: "translate(-43vh, -57vh)",
-    backgroundColor: "black",
+    color: "black",
+    backgroundColor: "#F1C55B",
     minWidth: "150px",
   },
   link: {
