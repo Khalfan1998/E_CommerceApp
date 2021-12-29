@@ -13,6 +13,7 @@ body {
 html {
   overflow-x: hidden;
   overflow-y: scroll;
+  /*background */
   background-color: lightgrey !important;
 }
 
@@ -20,10 +21,12 @@ a.MuiTypography-root.makeStyles-title-2.MuiTypography-h6.MuiTypography-colorInhe
   font-size: 20px !important;
 }
 
+/* container background About Us Page*/
 .MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-4.MuiGrid-justify-content-xs-center {
-  background-color: lightgrey;
+  background-color: rgb(255, 219, 219);
 }
 
+/* Navbar / cards color */
 .MuiPaper-root {
   color: rgba(0, 0, 0, 0.87);
   transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
