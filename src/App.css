@@ -37,4 +37,7 @@ a.MuiTypography-root.makeStyles-title-2.MuiTypography-h6.MuiTypography-colorInhe
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
 }
 
+.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-3.MuiGrid-direction-xs-column {
+  margin-bottom: 5px;
+}
 /* width and height of cart items container */

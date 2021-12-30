@@ -4,7 +4,7 @@ export default makeStyles((theme) => ({
   toolbar: theme.mixins.toolbar,
   title: {
     fontSize: "30px",
-    marginTop: "5%",
+    marginTop: "1%",
   },
   emptyButton: {
     //zIndex: 5,
@@ -29,6 +29,7 @@ export default makeStyles((theme) => ({
     textDecoration: "none",
   },
   subtotalsize: {
+    marginLeft: "20% !important",
     //transform: "translate(92vh, -43vh)",
     fontSize: "30px",
   },
@@ -38,7 +39,6 @@ export default makeStyles((theme) => ({
   },*/
   cardDetails: {
     display: "flex",
-    marginTop: "10%",
     width: "100%",
     justifyContent: "space-between",
   },
