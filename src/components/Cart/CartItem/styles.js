@@ -4,26 +4,35 @@ export default makeStyles(() => ({
   //image size and position
   media: {
     height: 150,
-    width: "50%",
-    marginLeft: "25%",
+    width: "25%",
+    marginTop: "5%",
+    marginLeft: "5%",
   },
   cardContent: {
     display: "flex",
     justifyContent: "space-between",
   },
+  cardContainer: {
+    width: "1000px",
+  },
   removeButton: {
     backgroundColor: "black",
   },
+  removeContainer: {
+    marginTop: "10%",
+  },
   textName: {
-    fontSize: "20px",
+    marginLeft: "30%",
+    fontSize: "30px",
   },
   textPrice: {
-    fontSize: "15px",
+    fontSize: "30px",
   },
   cartActions: {
     justifyContent: "space-between",
   },
   buttons: {
+    marginLeft: "30%",
     display: "flex",
     alignItems: "center",
   },

@@ -1,13 +1,12 @@
 import React from 'react';
 import { Typography, Button, Card, CardActions, CardContent, CardMedia } from '@material-ui/core';
-
 import useStyles from './styles';
 
 const CartItem = ({item, onUpdateCartQty, onRemoveFromCart}) => {
     const classes = useStyles();
 
     return (
-        <Card>
+        <Card className={classes.cardContainer}>
             <CardMedia image={item.image.url} alt={item.name} className={classes.media}/>
             <CardContent className={classes.cardContent}>
                 <Typography className={classes.textName} variant ='h4'>{item.name}</Typography>
