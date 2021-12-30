@@ -33,6 +33,7 @@ export default makeStyles(() => ({
     justifyContent: "space-between",
   },
   buttons: {
+    border: "1px solid black",
     marginLeft: "30%",
     display: "flex",
     alignItems: "center",
