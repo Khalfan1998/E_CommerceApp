@@ -7,14 +7,17 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: -5;
+  z-index: 5;
 }
 
 html {
   overflow-x: hidden;
   overflow-y: scroll;
   /*background */
-  background-color: rgb(255, 255, 255) !important;
+  /*background-color: rgb(255, 255, 255) !important;*/
+  background: url("https://i.postimg.cc/HntWL1Zv/output-onlinepngtools-1.png")
+    no-repeat center center fixed;
+  background-size: cover;
 }
 
 a.MuiTypography-root.makeStyles-title-2.MuiTypography-h6.MuiTypography-colorInherit {
@@ -23,7 +26,10 @@ a.MuiTypography-root.makeStyles-title-2.MuiTypography-h6.MuiTypography-colorInhe
 
 /* container background About Us Page*/
 .MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-4.MuiGrid-justify-content-xs-center {
-  background-color: rgb(255, 255, 255);
+  /*background-color: rgb(255, 255, 255);*/
+  background: url("https://i.postimg.cc/HntWL1Zv/output-onlinepngtools-1.png")
+    no-repeat center center fixed;
+  background-size: cover;
 }
 
 /* Navbar / cards color */
