@@ -13,6 +13,7 @@ export default makeStyles(() => ({
     justifyContent: "space-between",
   },
   cardContainer: {
+    border: "2px solid black",
     width: "1000px",
   },
   removeButton: {
