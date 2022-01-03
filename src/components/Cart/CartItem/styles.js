@@ -3,9 +3,9 @@ import { makeStyles } from "@material-ui/core/styles";
 export default makeStyles(() => ({
   //image size and position
   media: {
-    height: 150,
-    width: "25%",
-    marginTop: "5%",
+    height: 200,
+    width: "30%",
+    marginTop: "1%",
     marginLeft: "5%",
   },
   cardContent: {
@@ -14,7 +14,7 @@ export default makeStyles(() => ({
   },
   cardContainer: {
     border: "2px solid black",
-    width: "1000px",
+    width: "1200px",
   },
   removeButton: {
     backgroundColor: "black",

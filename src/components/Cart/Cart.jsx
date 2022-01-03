@@ -23,7 +23,7 @@ const Cart = ({ cart, handleUpdateCartQty, handleRemoveFromCart, handleEmptyCart
             ))}
         </Grid>
                 <div className={classes.cardDetails}>
-                    <Typography className={classes.subtotalsize} variant='h6'>Subtotal: { cart.subtotal.formatted_with_code}</Typography>
+                    <Typography className={classes.subtotalsize} variant='h6'><strong>Subtotal:</strong> { cart.subtotal.formatted_with_code}</Typography>
                     <div>
                         <Button className={classes.emptyButton} size='large' type='button' variant='contained' color='secondary' onClick={handleEmptyCart} >Empty Cart</Button>
                         <Button component={Link} to='/checkout' className={classes.checkoutButton} size='large' type='button' variant='contained' color='primary'>Checkout</Button>
