@@ -4,7 +4,7 @@ export default makeStyles((theme) => ({
   toolbar: theme.mixins.toolbar,
   title: {
     display: "inline",
-    border: "2px solid black",
+    border: "1px solid black",
     background: "#FFF4F4",
     fontSize: "30px",
     marginTop: "1%",
@@ -32,7 +32,7 @@ export default makeStyles((theme) => ({
     textDecoration: "none",
   },
   subtotalsize: {
-    border: "2px solid black",
+    border: "1px solid black",
     background: "#FFF4F4",
     marginLeft: "20% !important",
     //transform: "translate(92vh, -43vh)",

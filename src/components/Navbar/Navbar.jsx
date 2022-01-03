@@ -25,7 +25,7 @@ const Navbar = ({totalItems}) => {
                     
                     <Typography component={Link} to='/AboutUs' variant='h6' className={classes.title} color='inherit'>
                         
-                        About Us
+                        <strong>About Us</strong>
                     </Typography>
                     <div className={classes.grow} />
                     
