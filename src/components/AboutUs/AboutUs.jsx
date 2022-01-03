@@ -16,7 +16,7 @@ const AboutUs = ( ) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata" />
-        <style dangerouslySetInnerHTML={{__html: "\n    body,\n    html {\n      height: 100%;\n      \n    }\n    ul{\n        list-style-type: none;\n    }\n\n    .bgimg {\n      background-position: center;\n      background-size: cover;\n      background-image: url(\"https://i.postimg.cc/hvscz0P0/background-about-us.png\");\n      min-height: 75%;\n    }\n\n    .menu {\n      display: none;\n    }\n  " }} />
+        <style dangerouslySetInnerHTML={{__html: "\n    body,\n    html {\n      height: 100%;\n      \n    }\n    ul{\n        list-style-type: none;\n    }\n\n    .backgroundContainer{\n      background-color: white;\n .bgimg {\n      background-position: center;\n      background-size: cover;\n      background-image: url(\"https://i.postimg.cc/hvscz0P0/background-about-us.png\");\n      min-height: 75%;\n    }\n\n    .menu {\n      display: none;\n    }\n  " }} />
         {/* Links (sit on top) */}
         {/* Header with image */}
         <header className="bgimg w3-display-container" id="home">
@@ -24,6 +24,7 @@ const AboutUs = ( ) => {
         {/* Add a background color and large text to the whole page */}
         <div className="w3-large">
           {/* About Container */}
+          <div className="backgroundContainer">
           <div className="w3-container" id="about">
             <div className="w3-content" style={{maxWidth: '700px'}}>
               <h5 className="w3-center w3-padding-64">
@@ -57,6 +58,7 @@ const AboutUs = ( ) => {
                 <li><strong>Email:</strong>Loremipsum@gmail.com</li>
               </ul> 
             </div>
+          </div>
           </div>
         </div></div>
     )
